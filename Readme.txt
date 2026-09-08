@@ -1,4 +1,4 @@
-Thanks for downloading this theme!
+We adopted the theme from online and here is the credit:
 
 Theme Name: Vesperr
 Theme URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
