@@ -200,6 +200,27 @@ header .logo {
 	margin:30px 0 0;
 }
 
+header .logo img {
+	display:block;
+	width:48px;
+	height:48px;
+	object-fit:contain;
+	margin-bottom:0;
+}
+
+#intro .slogan .aligncenter img {
+	width:120px;
+	height:120px;
+	object-fit:contain;
+}
+
+footer .logo img {
+	width:48px;
+	height:48px;
+	object-fit:contain;
+	margin-bottom:0;
+}
+
 /* --- menu --- */
 
 .navigation {
@@ -1313,12 +1334,25 @@ img.pull-left{
 
 @media (max-width: 480px) {
 
+	#topnav .navbar {
+		padding-bottom:0;
+	}
+
+	#topnav .navbar-inner .container .logo {
+		padding:0;
+		margin:8px 0 0 8px;
+	}
+
+	#topnav .navigation {
+		margin:8px 8px 0 0;
+	}
 
     nav select {
       display: inline-block;
-	  width:85%;
-	  float:none;
-	  margin:20px;
+	  width:60%;
+	  max-width:190px;
+	  float:right;
+	  margin:8px 0 0;
 	  color:#111;
 	  line-height:30px;
   -webkit-border-radius: 4px;

@@ -99,6 +99,14 @@ ul.contact-list li textarea.form_textarea:focus  {
 	border-color:#3498db;
 }
 
+ul.social-profile .icon-circled {
+	background-color:#3498db;
+}
+
+ul.social-profile a:hover .icon-circled {
+	background-color:#444;
+}
+
 
 /* tab */
 
