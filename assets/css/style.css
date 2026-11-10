@@ -218,7 +218,7 @@ header .logo {
 
 .navbar .nav > li > a {
   float: none;
-  color: #fff;
+	color: #333;
 	line-height:1em;
   text-decoration: none;
   text-shadow:none;
@@ -230,7 +230,7 @@ header .logo {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   text-decoration: none;
-  color:#fff;
+	color:#3498db;
   background-color: transparent;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -287,22 +287,22 @@ ul.nav li ul.dropdown-menu {
 }
 
 .default {
-	background:#010101;
-	border-bottom:1px solid #222;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
 }
 
 
 
 .fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#fff;
 	border:none;
 	top:0;
 	left: 0;
 	width: 100%;
-	box-shadow: 0 0 40px #222;
-	-webkit-box-shadow: 0 0 40px #222;
-	-moz-box-shadow: 0 0 40px #222;
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 }
 
 nav select {
@@ -316,7 +316,7 @@ nav select {
 
 
 section#intro {
-	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #f7f8fa;
 	position:relative;
 	width:100%;
 	height:auto;
@@ -352,12 +352,12 @@ section#intro i  {
 }
 
 section#intro h1  {
-	color:#fff;
+	color:#333;
 	font-size:64px;
 	font-weight:700;
 }
 section#intro h2  {
-	color:#ddd;
+	color:#555;
 	font-size:24px;
 }
 
@@ -741,7 +741,7 @@ ul.the-icons {
 
 /* ================= services ============================ */
 section#services {
-	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #f7f8fa;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -754,11 +754,21 @@ section#services {
 }
 
 #services .headline h3 {
-	color:#fff;
+	color:#333;
 }
 
 #services .section-intro p {
-	color:#f8f8f8;
+	color:#555;
+}
+
+section#services .heading h3,
+section#services .sub-heading p {
+	color:#3a3a3a;
+	text-shadow:none;
+}
+
+section#services .heading h3 {
+	border-color:#3a3a3a;
 }
 
 .service-intro{
@@ -1019,7 +1029,7 @@ ul.contact-list li label{
 /* ================= bottom ========================== */
 
 section#bottom {
-	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: #f7f8fa;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -1036,7 +1046,7 @@ section#bottom {
 .tweet {
 	overflow:hidden;
 	padding:10px;
-	color:#fff;
+	color:#444;
 	font-size:34px;
 }
 
@@ -1047,7 +1057,7 @@ section#bottom {
 }
 
 #bottom .icon-twitter {
-	color:#fff;
+	color:#444;
 }
 
 .tweet .tweet_time a:hover {
@@ -1059,8 +1069,8 @@ section#bottom {
 footer{
 	float:left;
 	width:100%;
-	background:#212121;
-	color:#fff;
+	background:#f7f8fa;
+	color:#444;
 	margin:0;
 	padding:40px 0 0 0;
 }
@@ -1214,7 +1224,7 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:#fff;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1234,21 +1244,21 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+	background:#fff;
 	width: 100%;
 	padding-right:20px;
 	}
 
 	.fixed {
 	position: fixed;
-	background:#2a2a2a;
+	background:#fff;
 	top:0;
 	left: 0;
 	width: 100%;
 		padding-right:20px;
-	box-shadow: 0 0 40px #222;
-	-webkit-box-shadow: 0 0 40px #222;
-	-moz-box-shadow: 0 0 40px #222;
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 	}
 
 	#topnav .navbar-inner .container .logo {
